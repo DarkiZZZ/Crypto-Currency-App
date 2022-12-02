@@ -2,5 +2,5 @@
     <string name="app_name">Crypto Currency App</string>
     <string name="about_action">About</string>
     <string name="about_description">This App was made in education purposes \n
-        Github: github.com/DarkiZZZ \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMoscow, 2022</string>
+        Github: github.com/DarkiZZZ \n\n\n\n\n\n\n\nPowered by CoinGecko API\n\n\n\n\n\n\n\nMoscow, 2022</string>
 </resources>
