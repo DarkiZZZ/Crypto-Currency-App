@@ -1,4 +1,4 @@
-package ru.msokolov.cryptocurrencyapp.adapter.entities
+package ru.msokolov.cryptocurrencyapp.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import com.bumptech.glide.Glide
 import ru.msokolov.cryptocurrencyapp.R
 import kotlinx.android.synthetic.main.recycler_view_item.view.*
-import ru.msokolov.cryptocurrencyapp.adapter.BaseAdapter
+import ru.msokolov.cryptocurrencyapp.adapter.entities.Currency
 
 class CurrenciesAdapter : BaseAdapter<CurrenciesAdapter.CurrencyViewHolder>() {
 
