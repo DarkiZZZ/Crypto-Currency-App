@@ -2,6 +2,7 @@ package ru.msokolov.cryptocurrencyapp.di
 
 import dagger.Component
 import ru.msokolov.cryptocurrencyapp.activities.MainActivity
+import ru.msokolov.cryptocurrencyapp.chart.LatestChart
 import ru.msokolov.cryptocurrencyapp.fragments.CurrenciesListFragment
 import ru.msokolov.cryptocurrencyapp.mvp.presenter.CurrenciesPresenter
 import ru.msokolov.cryptocurrencyapp.mvp.presenter.LatestChartPresenter
@@ -17,4 +18,5 @@ interface AppComponent {
     fun inject(presenter: CurrenciesPresenter)
     fun inject(presenter: LatestChartPresenter)
     fun inject(fragment: CurrenciesListFragment)
+    fun inject(chart: LatestChart)
 }
