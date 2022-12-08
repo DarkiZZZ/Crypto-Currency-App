@@ -6,12 +6,14 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import ru.msokolov.cryptocurrencyapp.R
+import ru.msokolov.cryptocurrencyapp.di.App
 import ru.msokolov.cryptocurrencyapp.fragments.CurrenciesListFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        App.appComponent.inject(this)
 
         if (savedInstanceState == null) {
             supportFragmentManager
